@@ -4,7 +4,6 @@ const skills = [
   { name: 'Adobe After Effects', level: 95 },
   { name: 'Adobe Illustrator', level: 90 },
   { name: 'Figma', level: 88 },
-  { name: 'Cinema 4D', level: 75 },
   { name: 'Adobe Premiere Pro', level: 80 },
   { name: 'Photoshop', level: 92 },
 ];
