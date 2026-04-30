@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Icon from '@/components/ui/icon';
 
-type Category = 'all' | 'branding' | 'motion' | 'ui' | '3d';
+type Category = 'all' | 'branding' | 'motion' | 'ui';
 
 interface Project {
   id: number;
@@ -18,7 +18,6 @@ const filters: { key: Category; label: string }[] = [
   { key: 'branding', label: 'Брендинг' },
   { key: 'motion', label: 'Motion' },
   { key: 'ui', label: 'UI/UX' },
-  { key: '3d', label: '3D' },
 ];
 
 const projects: Project[] = [
@@ -49,15 +48,7 @@ const projects: Project[] = [
     emoji: '💳',
     year: '2023',
   },
-  {
-    id: 4,
-    title: 'Arc Jewelry — 3D визуал',
-    category: '3d',
-    tags: ['Cinema 4D', 'Рендер'],
-    color: 'from-amber-600/40 to-orange-900/60',
-    emoji: '💎',
-    year: '2024',
-  },
+
   {
     id: 5,
     title: 'Vibe Records — брендинг',
@@ -85,15 +76,7 @@ const projects: Project[] = [
     emoji: '🌸',
     year: '2023',
   },
-  {
-    id: 8,
-    title: 'Orbit Chair — 3D реклама',
-    category: '3d',
-    tags: ['Cinema 4D', 'Продакт'],
-    color: 'from-blue-600/40 to-indigo-900/60',
-    emoji: '🪑',
-    year: '2024',
-  },
+
   {
     id: 9,
     title: 'Volt Energy — айдентика',

@@ -41,14 +41,6 @@ const services = [
     gradient: 'from-violet-500/20 to-violet-900/10',
     glow: 'rgba(139,92,246,0.3)',
   },
-  {
-    icon: 'Box',
-    title: '3D & Визуализация',
-    description: 'Трёхмерные объекты, продуктовые визуализации, анимация в Cinema 4D.',
-    tags: ['Cinema 4D', '3D-анимация', 'Рендер'],
-    gradient: 'from-emerald-500/20 to-emerald-900/10',
-    glow: 'rgba(16,185,129,0.3)',
-  },
 ];
 
 const ServicesSection = () => {
