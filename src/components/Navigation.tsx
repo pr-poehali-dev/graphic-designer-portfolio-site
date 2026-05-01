@@ -49,8 +49,8 @@ const Navigation = () => {
           className="font-bold text-xl tracking-tight"
           style={{ fontFamily: "'Space Grotesk', sans-serif" }}
         >
-          <span className="text-gradient">Alex</span>
-          <span className="text-white/90">Design</span>
+          <span className="text-gradient">Ivan</span>
+          <span className="text-white/90">Kolesov</span>
         </button>
 
         {/* Desktop */}
